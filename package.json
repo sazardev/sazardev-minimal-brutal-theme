@@ -1,0 +1,41 @@
+{
+  "name": "clean-code",
+  "displayName": "SazarDev Brutal Minimal Theme",
+  "description": "Un tema minimalista con diseño brutal, elegante y moderno para VS Code",
+  "version": "0.1.0",
+  "publisher": "sazardev",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark theme",
+    "brutal",
+    "minimal",
+    "modern",
+    "elegant",
+    "clean",
+    "neon",
+    "cyberpunk"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SazarDev Brutal Minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sazardev-brutal-minimal-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sazardev/brutal-minimal-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sazardev/brutal-minimal-theme/issues"
+  },
+  "homepage": "https://github.com/sazardev/brutal-minimal-theme#readme"
+}
