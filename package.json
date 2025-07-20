@@ -13,6 +13,7 @@
   ],
   "keywords": [
     "dark theme",
+    "light theme",
     "brutal",
     "minimal",
     "modern",
@@ -27,6 +28,11 @@
         "label": "SazarDev Brutal Minimal",
         "uiTheme": "vs-dark",
         "path": "./themes/sazardev-brutal-minimal-theme.json"
+      },
+      {
+        "label": "SazarDev Brutal Minimal Light",
+        "uiTheme": "vs",
+        "path": "./themes/sazardev-brutal-minimal-light-theme.json"
       }
     ]
   },
