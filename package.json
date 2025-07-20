@@ -1,8 +1,8 @@
 {
-  "name": "clean-code",
-  "displayName": "SazarDev Brutal Minimal Theme",
-  "description": "Un tema minimalista con diseño brutal, elegante y moderno para VS Code",
-  "version": "0.1.0",
+  "name": "flux-code-theme",
+  "displayName": "Flux Code Theme",
+  "description": "A modern, minimal and elegant theme for developers who value clean code aesthetics",
+  "version": "1.0.0",
   "publisher": "sazardev",
   "icon": "icon.png",
   "engines": {
@@ -14,34 +14,35 @@
   "keywords": [
     "dark theme",
     "light theme",
-    "brutal",
     "minimal",
     "modern",
     "elegant",
     "clean",
-    "neon",
-    "cyberpunk"
+    "professional",
+    "developer",
+    "productivity",
+    "flux"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "SazarDev Brutal Minimal",
+        "label": "Flux Code Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sazardev-brutal-minimal-theme.json"
+        "path": "./themes/flux-code-dark-theme.json"
       },
       {
-        "label": "SazarDev Brutal Minimal Light",
+        "label": "Flux Code Light",
         "uiTheme": "vs",
-        "path": "./themes/sazardev-brutal-minimal-light-theme.json"
+        "path": "./themes/flux-code-light-theme.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sazardev/brutal-minimal-theme.git"
+    "url": "https://github.com/sazardev/flux-code-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/sazardev/brutal-minimal-theme/issues"
+    "url": "https://github.com/sazardev/flux-code-theme/issues"
   },
-  "homepage": "https://github.com/sazardev/brutal-minimal-theme#readme"
+  "homepage": "https://github.com/sazardev/flux-code-theme#readme"
 }

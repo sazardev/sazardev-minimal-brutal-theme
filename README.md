@@ -1,103 +1,132 @@
-# SazarDev - Tema Personalizado para VS Code
+# Flux Code Theme
 
-Un tema de colores elegante y moderno para Visual Studio Code, diseñado para mejorar la experiencia de programación con una paleta de colores cuidadosamente seleccionada.
+> **A modern, minimal and elegant VS Code theme for developers who value clean aesthetics**
 
-## 🎨 Características
+[![Version](https://img.shields.io/visual-studio-marketplace/v/sazardev.flux-code-theme)](https://marketplace.visualstudio.com/items?itemName=sazardev.flux-code-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/sazardev.flux-code-theme)](https://marketplace.visualstudio.com/items?itemName=sazardev.flux-code-theme)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/sazardev.flux-code-theme)](https://marketplace.visualstudio.com/items?itemName=sazardev.flux-code-theme)
 
-- **Tema base oscuro** optimizado para largas sesiones de código
-- **Sintaxis highlighting** mejorada para múltiples lenguajes
-- **Colores contrastantes** que reducen la fatiga visual
-- **Diseño minimalista** que se enfoca en el código
+## ✨ Features
 
-## 🚀 Instalación
+- **🎨 Dual Themes**: Dark and Light variants optimized for all lighting conditions
+- **🔍 Enhanced Readability**: Carefully selected colors that reduce eye strain
+- **⚡ Modern Design**: Clean, minimal interface that focuses on your code
+- **🌈 Rich Syntax**: Comprehensive highlighting for 15+ programming languages
+- **💼 Professional**: Perfect for both personal projects and enterprise development
 
-### Desde el código fuente:
-1. Clona este repositorio
-2. Abre VS Code en la carpeta del proyecto
-3. Presiona `F5` para abrir una nueva ventana con la extensión cargada
-4. Ve a `File > Preferences > Color Theme` y selecciona "sazardev"
+## 🎯 Design Philosophy
 
-### Para desarrollo:
+**Flux Code** combines modern aesthetics with functional design:
+
+- **Minimal**: Clean interface without visual clutter
+- **Professional**: Suitable for any development environment  
+- **Elegant**: Sophisticated color palette with perfect contrast
+- **Productive**: Optimized for long coding sessions
+
+## � Installation
+
+### From VS Code Marketplace
+
+1. Open VS Code
+2. Go to Extensions (`Ctrl+Shift+X`)
+3. Search for "Flux Code Theme"
+4. Click **Install**
+5. Select the theme: `Ctrl+K Ctrl+T` → Choose **Flux Code Dark** or **Flux Code Light**
+
+### From Command Line
+
 ```bash
-# Instalar dependencias
-npm install
-
-# Probar la extensión
-code --extensionDevelopmentPath=. --new-window
+code --install-extension sazardev.flux-code-theme
 ```
 
-## 📦 Publicación
+## 🎨 Color Palette
 
-Para publicar tu tema en el VS Code Marketplace:
+### Dark Theme
+| Element | Color | Purpose |
+|---------|-------|---------|
+| **Primary Accent** | `#00d9cc` | Cursor, selections, highlights |
+| **Background** | `#0f0f0f` | Main editor background |
+| **Foreground** | `#e6e6e6` | Primary text color |
+| **Secondary** | `#0088ff` | Keywords, operators |
+| **Success** | `#00d9cc` | Strings, success states |
+| **Warning** | `#ffbb00` | Numbers, warnings |
+| **Error** | `#ff5555` | Errors, deletions |
 
-1. **Instala vsce (VS Code Extension Manager)**:
-```bash
-npm install -g @vscode/vsce
+### Light Theme
+| Element | Color | Purpose |
+|---------|-------|---------|
+| **Primary Accent** | `#00d9cc` | Cursor, selections, highlights |
+| **Background** | `#fdfdfd` | Main editor background |
+| **Foreground** | `#0a0a0a` | Primary text color |
+| **Subtle** | `#999999` | Line numbers, comments |
+
+## 📱 Screenshots
+
+### Dark Theme
+> Clean, modern interface perfect for low-light coding sessions
+
+### Light Theme  
+> Bright, crisp design ideal for well-lit environments
+
+*Screenshots will be added in the next version*
+
+## 🛠️ Supported Languages
+
+Optimized syntax highlighting for:
+
+- **Frontend**: JavaScript, TypeScript, React/JSX, HTML, CSS/SCSS
+- **Backend**: Python, Java, C#, PHP, Go, Rust
+- **Data**: JSON, YAML, XML, SQL
+- **Markup**: Markdown, LaTeX
+- **Config**: .env, .gitignore, Docker, YAML
+- **Shell**: Bash, PowerShell, Batch
+
+## ⚙️ Recommended Settings
+
+For the best experience with Flux Code Theme:
+
+```json
+{
+  "workbench.colorTheme": "Flux Code Dark",
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code'",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.iconTheme": "material-icon-theme"
+}
 ```
 
-2. **Empaqueta la extensión**:
-```bash
-vsce package
-```
+## 🔄 Version History
 
-3. **Publica en el Marketplace**:
-```bash
-vsce publish
-```
+### v1.0.0 - Initial Release
+- ✅ Complete Dark and Light theme variants
+- ✅ Comprehensive syntax highlighting
+- ✅ Modern, professional design
+- ✅ Optimized for productivity
 
-## 🛠️ Personalización
+## 🤝 Contributing
 
-Puedes modificar los colores editando el archivo `themes/sazardev-color-theme.json`:
+We welcome contributions! Here's how you can help:
 
-- **colors**: Define los colores de la interfaz de VS Code
-- **tokenColors**: Define los colores para el resaltado de sintaxis
+1. **🐛 Report Issues**: [GitHub Issues](https://github.com/sazardev/flux-code-theme/issues)
+2. **💡 Suggest Features**: [Feature Requests](https://github.com/sazardev/flux-code-theme/issues/new)
+3. **⭐ Rate & Review**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sazardev.flux-code-theme)
 
-## 📋 Estructura del Proyecto
+## 📝 License
 
-```
-├── themes/
-│   └── sazardev-color-theme.json  # Definición del tema
-├── package.json                   # Manifest de la extensión
-├── README.md                      # Este archivo
-└── .vscode/
-    └── launch.json               # Configuración de debug
-```
+MIT License - feel free to use in personal and commercial projects.
 
-## 🤝 Contribuciones
+## 🔗 Links
 
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature
-3. Commit tus cambios
-4. Push a la rama
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT.
-
-## 🔗 Enlaces Útiles
-
-- [VS Code Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
-- [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+- **📦 Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sazardev.flux-code-theme)
+- **🐙 Repository**: [GitHub](https://github.com/sazardev/flux-code-theme)
+- **🐛 Issues**: [Report Bug](https://github.com/sazardev/flux-code-theme/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/sazardev/flux-code-theme/discussions)
 
 ---
 
-**¡Disfruta programando con tu nuevo tema!** ✨DME
+**Made with ❤️ by developers, for developers**
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+*Flux Code Theme - Where modern design meets productive coding*

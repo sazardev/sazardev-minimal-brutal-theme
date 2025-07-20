@@ -6,24 +6,41 @@ This is a VS Code extension project for creating custom color themes. Please use
 
 ## Project Context
 - **Project Type**: VS Code Color Theme Extension
-- **Extension ID**: clean-code
-- **Theme Name**: sazardev
-- **Base Theme**: Dark
+- **Extension ID**: flux-code-theme
+- **Theme Name**: Flux Code
+- **Variants**: Dark and Light themes
+- **Base Themes**: Dark (`vs-dark`) and Light (`vs`)
+
+## Brand Identity
+- **Name**: Flux Code Theme
+- **Tagline**: "Where modern design meets productive coding"
+- **Philosophy**: Modern, minimal, elegant, professional
+- **Target Audience**: Professional developers, productivity-focused programmers
+
+## Color Palette
+- **Primary Accent**: `#00d9cc` (Professional Teal)
+- **Background Dark**: `#0f0f0f` (Deep comfortable black)
+- **Background Light**: `#fdfdfd` (Clean white)
+- **Text Dark**: `#e6e6e6` (High contrast white)
+- **Text Light**: `#0a0a0a` (Sharp black)
 
 ## Guidelines
 - Follow VS Code extension development best practices
 - Use semantic color naming for theme tokens
-- Ensure accessibility compliance for color contrast
-- Maintain consistency across all theme elements
+- Ensure accessibility compliance (WCAG AA)
+- Maintain consistency across Dark and Light variants
 - Test theme with different file types and languages
+- Focus on professional, commercial-ready aesthetics
 
 ## Key Files
-- `themes/sazardev-color-theme.json`: Main theme definition file
+- `themes/flux-code-dark-theme.json`: Dark theme definition
+- `themes/flux-code-light-theme.json`: Light theme definition  
 - `package.json`: Extension manifest with theme contribution
 - `.vscode/launch.json`: Debug configuration for testing
 
 ## Development Notes
-- The theme extends the Dark base theme
-- Focus on readability and developer experience
+- The theme should be suitable for enterprise environments
+- Focus on readability and developer productivity
 - Consider syntax highlighting for popular languages
-- Test with both light and dark system preferences
+- Test with both color vision accessibility
+- Maintain professional branding throughout
