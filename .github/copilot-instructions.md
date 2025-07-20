@@ -6,9 +6,36 @@ This is a VS Code extension project for creating custom color themes. Please use
 
 ## Project Context
 - **Project Type**: VS Code Color Theme Extension
-- **Extension ID**: flux-code-theme
-- **Theme Name**: Flux Code
+- **Extension ID**: carbon-code-theme
+- **Theme Name**: Carbon Code
 - **Variants**: Dark and Light themes
+- **Brand Colors**: Indigo (#6366f1), Professional grays, Clean whites/blacks
+
+## Design Philosophy
+- **Minimal**: Clean, distraction-free interface
+- **Professional**: Suitable for any work environment  
+- **Focused**: Optimized for developer productivity
+- **Accessible**: High contrast and readable typography
+
+## Guidelines
+- Follow VS Code extension development best practices
+- Maintain consistency with Carbon brand colors
+- Ensure accessibility compliance for color contrast
+- Focus on readability and developer experience
+- Test theme with multiple file types and languages
+
+## Key Files
+- `themes/carbon-dark-theme.json`: Dark theme definition
+- `themes/carbon-light-theme.json`: Light theme definition  
+- `package.json`: Extension manifest with theme contribution
+- `.vscode/launch.json`: Debug configuration for testing
+
+## Color Palette
+- **Primary**: #6366f1 (Indigo)
+- **Dark Background**: #0f0f0f
+- **Light Background**: #fdfdfd
+- **Dark Text**: #e6e6e6
+- **Light Text**: #0a0a0a
 - **Base Themes**: Dark (`vs-dark`) and Light (`vs`)
 
 ## Brand Identity

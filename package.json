@@ -1,7 +1,7 @@
 {
-  "name": "flux-code-theme",
-  "displayName": "Flux Code Theme",
-  "description": "A modern, minimal and elegant theme for developers who value clean code aesthetics",
+  "name": "carbon-code-theme",
+  "displayName": "Carbon Code Theme",
+  "description": "Clean, minimal VS Code theme for focused coding. Professional dark & light variants with carefully crafted colors.",
   "version": "1.0.0",
   "publisher": "sazardev",
   "icon": "icon.png",
@@ -16,24 +16,25 @@
     "light theme",
     "minimal",
     "modern",
-    "elegant",
     "clean",
+    "carbon",
     "professional",
     "developer",
     "productivity",
-    "flux"
+    "elegant",
+    "focus"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Flux Code Dark",
+        "label": "Carbon Code Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/flux-code-dark-theme.json"
+        "path": "./themes/carbon-dark-theme.json"
       },
       {
-        "label": "Flux Code Light",
+        "label": "Carbon Code Light",
         "uiTheme": "vs",
-        "path": "./themes/flux-code-light-theme.json"
+        "path": "./themes/carbon-light-theme.json"
       }
     ]
   },

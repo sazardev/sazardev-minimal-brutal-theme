@@ -21,11 +21,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🎨 Color Updates
 
-| Element | Old Color | New Color | Improvement |
-|---------|-----------|-----------|-------------|
-| **Primary Accent** | `#00ff88` (Neon Green) | `#00d9cc` (Professional Teal) | More subtle, professional |
-| **Background** | `#0c0c0c` | `#0f0f0f` | Slightly lighter for comfort |
-| **Foreground** | `#e8e8e8` | `#e6e6e6` | Optimized contrast |
+| Element            | Old Color              | New Color                     | Improvement                  |
+| ------------------ | ---------------------- | ----------------------------- | ---------------------------- |
+| **Primary Accent** | `#00ff88` (Neon Green) | `#00d9cc` (Professional Teal) | More subtle, professional    |
+| **Background**     | `#0c0c0c`              | `#0f0f0f`                     | Slightly lighter for comfort |
+| **Foreground**     | `#e8e8e8`              | `#e6e6e6`                     | Optimized contrast           |
 
 ### 🚀 Theme Variants
 
