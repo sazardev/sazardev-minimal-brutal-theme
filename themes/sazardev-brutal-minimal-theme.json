@@ -6,9 +6,14 @@
         "editor.background": "#0c0c0c",
         "editor.foreground": "#e8e8e8",
         "editorCursor.foreground": "#00ff88",
-        "editor.selectionBackground": "#1a1a1a55",
-        "editor.selectionHighlightBackground": "#1a1a1a33",
+        "editor.selectionBackground": "#00ff8833",
+        "editor.selectionHighlightBackground": "#00ff8822",
         "editor.lineHighlightBackground": "#00000000",
+        "editor.wordHighlightBackground": "#00ff8815",
+        "editor.wordHighlightStrongBackground": "#00ff8825",
+        "editor.findMatchBackground": "#0088ff44",
+        "editor.findMatchHighlightBackground": "#0088ff22",
+        "editor.rangeHighlightBackground": "#00ff8811",
         "editorLineNumber.foreground": "#404040",
         "editorLineNumber.activeForeground": "#00ff88",
         "editorIndentGuide.background1": "#1a1a1a",
@@ -177,7 +182,7 @@
             }
         },
         {
-            "name": "Keyword, Storage",
+            "name": "Keyword, Storage - Armonía con verde",
             "scope": [
                 "keyword",
                 "storage.type",
@@ -187,15 +192,16 @@
                 "keyword.other.special-method",
                 "keyword.control.import",
                 "keyword.control.export",
-                "keyword.control.default"
+                "keyword.control.default",
+                "keyword.control.go"
             ],
             "settings": {
-                "foreground": "#7aa3c4",
+                "foreground": "#66ccff",
                 "fontStyle": ""
             }
         },
         {
-            "name": "String",
+            "name": "String - Sutil pero visible",
             "scope": [
                 "string",
                 "string.quoted",
@@ -203,7 +209,7 @@
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#8ba888"
+                "foreground": "#99ddaa"
             }
         },
         {
@@ -255,20 +261,22 @@
                 "variable.language.super"
             ],
             "settings": {
-                "foreground": "#d5d5d5"
+                "foreground": "#e8e8e8"
             }
         },
         {
-            "name": "Property",
+            "name": "Property - Más visible para Go",
             "scope": [
                 "variable.object.property",
                 "meta.object-literal.key",
                 "support.variable.property",
                 "entity.other.attribute-name.class.css",
-                "entity.other.attribute-name.id.css"
+                "entity.other.attribute-name.id.css",
+                "meta.field.declaration.go",
+                "variable.field.go"
             ],
             "settings": {
-                "foreground": "#b0b0b0"
+                "foreground": "#a8d0ff"
             }
         },
         {
@@ -292,15 +300,17 @@
             }
         },
         {
-            "name": "Operator",
+            "name": "Operator - Coherente con verde neón",
             "scope": [
                 "keyword.operator",
                 "keyword.operator.assignment",
                 "keyword.operator.arithmetic",
-                "keyword.operator.logical"
+                "keyword.operator.logical",
+                "keyword.operator.comparison.go",
+                "punctuation.separator.key-value"
             ],
             "settings": {
-                "foreground": "#909090"
+                "foreground": "#aaffaa"
             }
         },
         {
@@ -378,6 +388,38 @@
             }
         },
         {
+            "name": "Go - Package y struct fields más vivos",
+            "scope": [
+                "entity.name.package.go",
+                "variable.other.field.go",
+                "entity.name.type.struct.go",
+                "meta.struct.go variable.other.go"
+            ],
+            "settings": {
+                "foreground": "#88ddff"
+            }
+        },
+        {
+            "name": "Go - Métodos receiver más visible",
+            "scope": [
+                "meta.function.receiver.go variable.parameter.go",
+                "variable.parameter.receiver.go"
+            ],
+            "settings": {
+                "foreground": "#ffaa55"
+            }
+        },
+        {
+            "name": "Go - Interfaces y tipos",
+            "scope": [
+                "entity.name.type.interface.go",
+                "support.type.go"
+            ],
+            "settings": {
+                "foreground": "#dd88ff"
+            }
+        },
+        {
             "name": "CSS Property",
             "scope": [
                 "support.type.property-name.css"
@@ -415,6 +457,27 @@
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "Go - Error handling más visible",
+            "scope": [
+                "variable.language.go",
+                "constant.language.go"
+            ],
+            "settings": {
+                "foreground": "#ffcc77"
+            }
+        },
+        {
+            "name": "Go - Punteros y referencias",
+            "scope": [
+                "keyword.operator.address.go",
+                "keyword.operator.channel.go"
+            ],
+            "settings": {
+                "foreground": "#00ff88",
+                "fontStyle": "bold"
             }
         },
         {
