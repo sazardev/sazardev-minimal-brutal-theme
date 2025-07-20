@@ -79,6 +79,14 @@ Want to tweak the theme? Add these to your `settings.json`:
     "[Carbon Code Light]": {
       "editor.background": "#fdfdfd",
       "terminal.background": "#f8f8f8"
+    },
+    "[Carbon Code Emerald Dark]": {
+      "editor.background": "#0f0f0f",
+      "terminal.background": "#080808"
+    },
+    "[Carbon Code Emerald Light]": {
+      "editor.background": "#fdfdfd",
+      "terminal.background": "#f8f8f8"
     }
   }
 }

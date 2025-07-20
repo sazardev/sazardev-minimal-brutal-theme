@@ -8,8 +8,9 @@ This is a VS Code extension project for creating custom color themes. Please use
 - **Project Type**: VS Code Color Theme Extension
 - **Extension ID**: carbon-code-theme
 - **Theme Name**: Carbon Code
-- **Variants**: Dark and Light themes
-- **Brand Colors**: Indigo (#6366f1), Professional grays, Clean whites/blacks
+- **Variants**: Dark and Light themes in two color schemes
+- **Color Schemes**: Indigo (#6366f1) and Emerald (#00ff88)
+- **Brand Colors**: Professional indigo, Vibrant emerald, Clean whites/blacks
 
 ## Design Philosophy
 - **Minimal**: Clean, distraction-free interface
@@ -25,13 +26,16 @@ This is a VS Code extension project for creating custom color themes. Please use
 - Test theme with multiple file types and languages
 
 ## Key Files
-- `themes/carbon-dark-theme.json`: Dark theme definition
-- `themes/carbon-light-theme.json`: Light theme definition  
+- `themes/carbon-dark-theme.json`: Dark theme with indigo accents
+- `themes/carbon-light-theme.json`: Light theme with indigo accents
+- `themes/carbon-emerald-dark-theme.json`: Dark theme with emerald accents  
+- `themes/carbon-emerald-light-theme.json`: Light theme with emerald accents
 - `package.json`: Extension manifest with theme contribution
 - `.vscode/launch.json`: Debug configuration for testing
 
 ## Color Palette
-- **Primary**: #6366f1 (Indigo)
+- **Primary Indigo**: #6366f1 (Professional, calm)
+- **Primary Emerald**: #00ff88 (Vibrant, energetic)
 - **Dark Background**: #0f0f0f
 - **Light Background**: #fdfdfd
 - **Dark Text**: #e6e6e6
