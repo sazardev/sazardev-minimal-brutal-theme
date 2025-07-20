@@ -1,7 +1,7 @@
 {
   "name": "carbon-code-theme",
   "displayName": "Carbon Code Theme",
-  "description": "Clean, minimal VS Code theme for focused coding. Professional dark & light variants with carefully crafted colors.",
+  "description": "Clean, minimal VS Code theme for focused coding. Professional dark & light variants with indigo and emerald color options.",
   "version": "1.0.0",
   "publisher": "sazardev",
   "icon": "icon.png",
@@ -22,7 +22,9 @@
     "developer",
     "productivity",
     "elegant",
-    "focus"
+    "focus",
+    "emerald",
+    "green"
   ],
   "contributes": {
     "themes": [
@@ -35,6 +37,16 @@
         "label": "Carbon Code Light",
         "uiTheme": "vs",
         "path": "./themes/carbon-light-theme.json"
+      },
+      {
+        "label": "Carbon Code Emerald Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-emerald-dark-theme.json"
+      },
+      {
+        "label": "Carbon Code Emerald Light",
+        "uiTheme": "vs",
+        "path": "./themes/carbon-emerald-light-theme.json"
       }
     ]
   },

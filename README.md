@@ -18,11 +18,12 @@
 
 ## 🌟 Features
 
-- **🎨 Dual Themes**: Carefully crafted Dark and Light variants
+- **🎨 Dual Themes**: Carefully crafted Dark and Light variants in two color schemes
 - **👁️ Eye-friendly**: Optimized color contrast reduces eye strain
 - **🔍 Enhanced Readability**: Clear syntax highlighting for 20+ languages
 - **⚡ Performance**: Lightweight with zero impact on VS Code performance
 - **🎪 Consistent**: Unified design language across all UI elements
+- **🌈 Color Options**: Choose between professional Indigo or vibrant Emerald accents
 
 ## 🚀 Installation
 
@@ -31,7 +32,7 @@
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"Carbon Code Theme"**
 4. Click **Install**
-5. Select theme: `Ctrl+K Ctrl+T` → Choose **Carbon Code Dark** or **Carbon Code Light**
+5. Select theme: `Ctrl+K Ctrl+T` → Choose **Carbon Code Dark**, **Carbon Code Light**, **Carbon Code Emerald Dark**, or **Carbon Code Emerald Light**
 
 ### From Command Line
 ```bash
@@ -51,6 +52,18 @@ Ideal for daytime work and well-lit spaces.
 - Clean white backgrounds (`#fdfdfd`)
 - Sharp dark text (`#0a0a0a`)
 - Vibrant indigo highlights (`#6366f1`)
+
+### 💎 Carbon Code Emerald Dark
+Dynamic and energetic theme for creative coding.
+- Deep black backgrounds (`#0f0f0f`)
+- Warm white text (`#e6e6e6`)
+- Vibrant emerald accents (`#00ff88`)
+
+### 🌿 Carbon Code Emerald Light
+Fresh and vibrant theme for bright environments.
+- Clean white backgrounds (`#fdfdfd`)
+- Sharp dark text (`#0a0a0a`)
+- Bold emerald highlights (`#00ff88`)
 
 ## 🛠️ Customization
 
