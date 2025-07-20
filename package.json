@@ -89,10 +89,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sazardev/flux-code-theme.git"
+    "url": "https://github.com/sazardev/sazardev-minimal-brutal-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/sazardev/flux-code-theme/issues"
+    "url": "https://github.com/sazardev/sazardev-minimal-brutal-theme/issues"
   },
-  "homepage": "https://github.com/sazardev/flux-code-theme#readme"
+  "homepage": "https://github.com/sazardev/sazardev-minimal-brutal-theme#readme"
 }
