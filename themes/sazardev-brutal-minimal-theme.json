@@ -64,6 +64,8 @@
         "tab.unfocusedInactiveForeground": "#606060",
         "tab.lastPinnedBorder": "#00000000",
         "tab.focusBorder": "#00000000",
+        "tab.unfocusedActiveBorder": "#00000000",
+        "tab.unfocusedActiveBorderTop": "#00000000",
         "editorGroupHeader.tabsBackground": "#080808",
         "editorGroupHeader.tabsBorder": "#00000000",
         "editorGroupHeader.border": "#00000000",
@@ -114,6 +116,9 @@
         "list.focusForeground": "#ffffff",
         "list.focusHighlightForeground": "#00ff88",
         "list.focusOutline": "#00000000",
+        "list.focusAndSelectionOutline": "#00000000",
+        "list.activeSelectionIconForeground": "#ffffff",
+        "list.inactiveSelectionIconForeground": "#cccccc",
         // === SCROLLBAR ===
         "scrollbar.shadow": "#000000",
         "scrollbarSlider.background": "#333333",
@@ -172,7 +177,10 @@
         "focusBorder": "#00000000",
         // === CONTRAST BORDERS ===
         "contrastBorder": "#333333",
-        "contrastActiveBorder": "#00ff88"
+        "contrastActiveBorder": "#00000000",
+        // === EXPLORER SPECIFIC ===
+        "tree.indentGuidesStroke": "#00ff8833",
+        "tree.inactiveIndentGuidesStroke": "#00ff8833"
     },
     "tokenColors": [
         {
