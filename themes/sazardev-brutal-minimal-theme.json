@@ -29,6 +29,8 @@
         "activityBar.border": "#00000000",
         "activityBar.activeBorder": "#00ff88",
         "activityBar.activeBackground": "#00000000",
+        "activityBar.activeFocusBorder": "#00000000",
+        "activityBar.dropBorder": "#00000000",
         "sideBar.background": "#0a0a0a",
         "sideBar.foreground": "#b8b8b8",
         "sideBar.border": "#00000000",
@@ -61,6 +63,7 @@
         "tab.unfocusedActiveForeground": "#a0a0a0",
         "tab.unfocusedInactiveForeground": "#606060",
         "tab.lastPinnedBorder": "#00000000",
+        "tab.focusBorder": "#00000000",
         "editorGroupHeader.tabsBackground": "#080808",
         "editorGroupHeader.tabsBorder": "#00000000",
         "editorGroupHeader.border": "#00000000",
@@ -109,6 +112,8 @@
         "list.hoverForeground": "#ffffff",
         "list.focusBackground": "#1a1a1a",
         "list.focusForeground": "#ffffff",
+        "list.focusHighlightForeground": "#00ff88",
+        "list.focusOutline": "#00000000",
         // === SCROLLBAR ===
         "scrollbar.shadow": "#000000",
         "scrollbarSlider.background": "#333333",
@@ -164,7 +169,7 @@
         // === PROGRESS BAR ===
         "progressBar.background": "#00ff88",
         // === FOCUS BORDER ===
-        "focusBorder": "#00ff88",
+        "focusBorder": "#00000000",
         // === CONTRAST BORDERS ===
         "contrastBorder": "#333333",
         "contrastActiveBorder": "#00ff88"
