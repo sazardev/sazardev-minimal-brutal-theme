@@ -32,7 +32,12 @@
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"Carbon Code Theme"**
 4. Click **Install**
-5. Select theme: `Ctrl+K Ctrl+T` → Choose **Carbon Code Dark**, **Carbon Code Light**, **Carbon Code Emerald Dark**, or **Carbon Code Emerald Light**
+5. Select theme: `Ctrl+K Ctrl+T` → Choose from:
+   - **Carbon Code Dark** / **Carbon Code Light** (Indigo)
+   - **Carbon Code Emerald Dark** / **Carbon Code Emerald Light** (Green)
+   - **Carbon Code Crimson Dark** / **Carbon Code Crimson Light** (Red)
+   - **Carbon Code Rose Dark** / **Carbon Code Rose Light** (Pink)
+   - **Carbon Code Amber Dark** / **Carbon Code Amber Light** (Orange)
 
 ### From Command Line
 ```bash
@@ -41,29 +46,43 @@ code --install-extension sazardev.carbon-code-theme
 
 ## 🎨 Theme Variants
 
-### 🌙 Carbon Code Dark
-Perfect for late-night coding sessions and low-light environments.
-- Deep black backgrounds (`#0f0f0f`)
-- Warm white text (`#e6e6e6`)
-- Professional indigo accents (`#6366f1`)
+### 🔵 Carbon Code Indigo Collection
+**Professional and calm - Perfect for enterprise environments**
 
-### ☀️ Carbon Code Light  
-Ideal for daytime work and well-lit spaces.
-- Clean white backgrounds (`#fdfdfd`)
-- Sharp dark text (`#0a0a0a`)
-- Vibrant indigo highlights (`#6366f1`)
+- **Carbon Code Dark** - Professional indigo accents (`#6366f1`)
+- **Carbon Code Light** - Clean indigo highlights (`#6366f1`)
 
-### 💎 Carbon Code Emerald Dark
-Dynamic and energetic theme for creative coding.
-- Deep black backgrounds (`#0f0f0f`)
-- Warm white text (`#e6e6e6`)
-- Vibrant emerald accents (`#00ff88`)
+### 🟢 Carbon Code Emerald Collection  
+**Vibrant and energetic - Ideal for creative coding**
 
-### 🌿 Carbon Code Emerald Light
-Fresh and vibrant theme for bright environments.
-- Clean white backgrounds (`#fdfdfd`)
-- Sharp dark text (`#0a0a0a`)
-- Bold emerald highlights (`#00ff88`)
+- **Carbon Code Emerald Dark** - Vibrant emerald accents (`#00ff88`)
+- **Carbon Code Emerald Light** - Bold emerald highlights (`#00ff88`)
+
+### 🔴 Carbon Code Crimson Collection
+**Bold and powerful - For focused development**
+
+- **Carbon Code Crimson Dark** - Deep crimson accents (`#dc2626`)
+- **Carbon Code Crimson Light** - Rich crimson highlights (`#dc2626`)
+
+### 🌸 Carbon Code Rose Collection
+**Elegant and modern - Sophisticated coding experience**
+
+- **Carbon Code Rose Dark** - Elegant rose accents (`#ec4899`)
+- **Carbon Code Rose Light** - Refined rose highlights (`#ec4899`)
+
+### 🧡 Carbon Code Amber Collection
+**Warm and inviting - Optimistic development environment**
+
+- **Carbon Code Amber Dark** - Warm amber accents (`#f59e0b`)
+- **Carbon Code Amber Light** - Golden amber highlights (`#f59e0b`)
+
+## 🎯 Choose Your Style
+
+- **Indigo**: Professional, stable, corporate-friendly
+- **Emerald**: Creative, energetic, modern
+- **Crimson**: Bold, focused, powerful
+- **Rose**: Elegant, sophisticated, stylish
+- **Amber**: Warm, optimistic, inviting
 
 ## 🛠️ Customization
 

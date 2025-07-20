@@ -1,7 +1,7 @@
 {
   "name": "carbon-code-theme",
   "displayName": "Carbon Code Theme",
-  "description": "Clean, minimal VS Code theme for focused coding. Professional dark & light variants with indigo and emerald color options.",
+  "description": "Clean, minimal VS Code theme for focused coding. Professional variants with indigo, emerald, crimson, rose, and amber color schemes.",
   "version": "1.0.0",
   "publisher": "sazardev",
   "icon": "icon.png",
@@ -24,7 +24,14 @@
     "elegant",
     "focus",
     "emerald",
-    "green"
+    "green",
+    "crimson",
+    "red",
+    "rose",
+    "pink",
+    "amber",
+    "orange",
+    "colorful"
   ],
   "contributes": {
     "themes": [
@@ -47,6 +54,36 @@
         "label": "Carbon Code Emerald Light",
         "uiTheme": "vs",
         "path": "./themes/carbon-emerald-light-theme.json"
+      },
+      {
+        "label": "Carbon Code Crimson Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-crimson-dark-theme.json"
+      },
+      {
+        "label": "Carbon Code Crimson Light",
+        "uiTheme": "vs",
+        "path": "./themes/carbon-crimson-light-theme.json"
+      },
+      {
+        "label": "Carbon Code Rose Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-rose-dark-theme.json"
+      },
+      {
+        "label": "Carbon Code Rose Light",
+        "uiTheme": "vs",
+        "path": "./themes/carbon-rose-light-theme.json"
+      },
+      {
+        "label": "Carbon Code Amber Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-amber-dark-theme.json"
+      },
+      {
+        "label": "Carbon Code Amber Light",
+        "uiTheme": "vs",
+        "path": "./themes/carbon-amber-light-theme.json"
       }
     ]
   },

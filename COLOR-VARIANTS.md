@@ -1,89 +1,125 @@
-# Carbon Code Theme - Color Variants
+# Carbon Code Theme - Complete Color Collection
 
-## 🎨 New Emerald Collection
+## 🎨 5 Stunning Color Schemes
 
-Hemos expandido **Carbon Code Theme** con nuevas variantes de color manteniendo la misma base de diseño profesional pero ofreciendo diferentes paletas para diferentes preferencias y contextos.
+Hemos expandido **Carbon Code Theme** con una colección completa de 5 esquemas de colores, cada uno diseñado para diferentes estados de ánimo y contextos de programación.
 
-## 🌟 Variantes Disponibles
+## � Color Schemes Available
 
-### 🔵 Serie Indigo (Original)
-- **Carbon Code Dark** - Tema oscuro con acentos azul índigo profesional
-- **Carbon Code Light** - Tema claro con acentos azul índigo profesional
+### 🔵 Indigo Collection - "Professional Focus"
+- **Primary Color**: `#6366f1` (Professional Blue)
+- **Personality**: Corporate, stable, trustworthy
+- **Best For**: Enterprise development, team environments, long coding sessions
+- **Mood**: Calm and focused productivity
 
-### 🟢 Serie Emerald (Nueva)
-- **Carbon Code Emerald Dark** - Tema oscuro con acentos verde esmeralda vibrante
-- **Carbon Code Emerald Light** - Tema claro con acentos verde esmeralda vibrante
+### 🟢 Emerald Collection - "Creative Energy"  
+- **Primary Color**: `#00ff88` (Vibrant Green)
+- **Personality**: Creative, energetic, modern
+- **Best For**: Frontend development, creative projects, late-night coding
+- **Mood**: Vibrant inspiration and innovation
 
-## 🎯 Filosofía de Diseño
+### 🔴 Crimson Collection - "Bold Power"
+- **Primary Color**: `#dc2626` (Deep Red)
+- **Personality**: Bold, powerful, intense
+- **Best For**: System programming, backend development, debugging
+- **Mood**: Focused determination and strength
 
-### Serie Indigo (#6366f1)
-- **Profesional**: Ideal para entornos corporativos
-- **Confiable**: Color asociado con estabilidad y productividad
-- **Elegante**: Sofisticado sin ser llamativo
-- **Versátil**: Funciona en cualquier contexto
+### 🌸 Rose Collection - "Elegant Sophistication"
+- **Primary Color**: `#ec4899` (Elegant Pink)
+- **Personality**: Modern, sophisticated, stylish  
+- **Best For**: UI/UX development, design work, mobile apps
+- **Mood**: Refined elegance and creativity
 
-### Serie Emerald (#00ff88)
-- **Energético**: Estimula la creatividad y concentración
-- **Dinámico**: Para desarrolladores que buscan inspiración
-- **Vibrante**: Aporta vitalidad al entorno de trabajo
-- **Moderno**: Tendencia actual en diseño UI/UX
+### 🧡 Amber Collection - "Warm Optimism"
+- **Primary Color**: `#f59e0b` (Golden Orange)
+- **Personality**: Warm, optimistic, inviting
+- **Best For**: Learning new languages, documentation, tutorials
+- **Mood**: Positive energy and enthusiasm
 
-## 🔧 Uso Recomendado
+## � Time-Based Recommendations
 
-### ¿Cuándo usar Indigo?
-- **Trabajo corporativo** o en equipo
-- **Proyectos profesionales** y empresariales
-- **Sesiones largas** de programación
-- **Presentaciones** o demos a clientes
+- **🌅 Morning** → Amber (Energizing start)
+- **☀️ Afternoon** → Indigo (Professional focus)
+- **🌆 Evening** → Rose (Elegant transition)
+- **🌙 Night** → Emerald (Creative energy)
 
-### ¿Cuándo usar Emerald?
-- **Proyectos creativos** o personales
-- **Desarrollo frontend** y diseño UI
-- **Sesiones de aprendizaje** o experimentación
-- **Trabajo nocturno** que requiere energía
+## 💻 All Available Themes
 
-## 📊 Comparación Técnica
+### Dark Themes (vs-dark)
+1. **Carbon Code Dark** - Indigo accents
+2. **Carbon Code Emerald Dark** - Emerald accents
+3. **Carbon Code Crimson Dark** - Crimson accents
+4. **Carbon Code Rose Dark** - Rose accents
+5. **Carbon Code Amber Dark** - Amber accents
 
-| Aspecto           | Indigo            | Emerald            |
-| ----------------- | ----------------- | ------------------ |
-| **Contraste**     | Alto, profesional | Muy alto, vibrante |
-| **Fatiga visual** | Mínima            | Baja-media         |
-| **Productividad** | Excelente         | Excelente          |
-| **Creatividad**   | Buena             | Excelente          |
-| **Versatilidad**  | Universal         | Específica         |
+### Light Themes (vs)
+1. **Carbon Code Light** - Indigo accents
+2. **Carbon Code Emerald Light** - Emerald accents
+3. **Carbon Code Crimson Light** - Crimson accents
+4. **Carbon Code Rose Light** - Rose accents
+5. **Carbon Code Amber Light** - Amber accents
 
-## 🚀 Instalación y Uso
+## 🎯 Choose Your Development Style
 
-1. **Instala** Carbon Code Theme desde el Marketplace
-2. **Abre** Command Palette (`Ctrl+Shift+P`)
-3. **Busca** "Preferences: Color Theme"
-4. **Selecciona** tu variante preferida:
-   - Carbon Code Dark
-   - Carbon Code Light
-   - Carbon Code Emerald Dark
-   - Carbon Code Emerald Light
+### When to use Indigo 🔵
+✅ Corporate environments  
+✅ Team collaboration  
+✅ Professional presentations  
+✅ Long development sessions  
+✅ Backend/server work
 
-## 🎪 Próximas Variantes
+### When to use Emerald 🟢
+✅ Creative coding projects  
+✅ Frontend development  
+✅ Late-night coding  
+✅ Open source projects  
+✅ Experimental work
 
-Estamos considerando futuras expansiones:
-- **Carbon Code Sunset** (naranjas y rojos)
-- **Carbon Code Ocean** (azules y cianes)
-- **Carbon Code Monochrome** (escala de grises)
+### When to use Crimson 🔴
+✅ Critical debugging sessions  
+✅ System programming  
+✅ Performance optimization  
+✅ Security-focused work  
+✅ High-pressure deadlines
 
-## 💡 Personalización
+### When to use Rose 🌸
+✅ UI/UX development  
+✅ Design-focused work  
+✅ Mobile app development  
+✅ Style guide creation  
+✅ Client-facing projects
 
-Puedes mezclar elementos de ambas series:
+### When to use Amber 🧡
+✅ Learning new technologies  
+✅ Writing documentation  
+✅ Teaching/tutorials  
+✅ Prototyping  
+✅ Morning coding sessions
 
-```json
-{
-  "workbench.colorCustomizations": {
-    "[Carbon Code Dark]": {
-      "editorCursor.foreground": "#00ff88" // Cursor emerald en tema indigo
-    }
-  }
-}
-```
+## 🚀 Installation & Usage
+
+1. Install **Carbon Code Theme** from VS Code Marketplace
+2. Open Command Palette (`Ctrl+Shift+P`)
+3. Type "Preferences: Color Theme"
+4. Choose your favorite Carbon variant!
+
+## 🎨 Technical Details
+
+- **Base Backgrounds**: Deep black (#0f0f0f) / Clean white (#fdfdfd)
+- **Text Colors**: High contrast for accessibility
+- **Syntax Highlighting**: Consistent across all variants
+- **UI Elements**: Cohesive design language
+- **Performance**: Lightweight, zero impact on VS Code
+
+## 🔮 Coming Soon
+
+- **Carbon Code Violet** - Purple sophistication
+- **Carbon Code Ocean** - Deep blue tranquility  
+- **Carbon Code Sunset** - Orange/red gradients
+- **Carbon Code Monochrome** - Ultimate minimalism
 
 ---
 
-**¡Elige tu paleta ideal y programa con estilo!** 🎨✨
+**🎉 With 10 total themes (5 colors × 2 modes), Carbon Code Theme offers the perfect color for every coding moment!**
+
+*Find your perfect coding companion in the Carbon Code collection.* ✨

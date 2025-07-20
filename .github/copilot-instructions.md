@@ -8,19 +8,20 @@ This is a VS Code extension project for creating custom color themes. Please use
 - **Project Type**: VS Code Color Theme Extension
 - **Extension ID**: carbon-code-theme
 - **Theme Name**: Carbon Code
-- **Variants**: Dark and Light themes in two color schemes
-- **Color Schemes**: Indigo (#6366f1) and Emerald (#00ff88)
-- **Brand Colors**: Professional indigo, Vibrant emerald, Clean whites/blacks
+- **Variants**: Dark and Light themes in 5 color schemes
+- **Color Schemes**: Indigo (#6366f1), Emerald (#00ff88), Crimson (#dc2626), Rose (#ec4899), Amber (#f59e0b)
+- **Brand Colors**: Professional and vibrant palettes for different coding moods
 
 ## Design Philosophy
 - **Minimal**: Clean, distraction-free interface
 - **Professional**: Suitable for any work environment  
 - **Focused**: Optimized for developer productivity
 - **Accessible**: High contrast and readable typography
+- **Versatile**: Multiple color schemes for different preferences
 
 ## Guidelines
 - Follow VS Code extension development best practices
-- Maintain consistency with Carbon brand colors
+- Maintain consistency across all Carbon color variants
 - Ensure accessibility compliance for color contrast
 - Focus on readability and developer experience
 - Test theme with multiple file types and languages
@@ -30,12 +31,21 @@ This is a VS Code extension project for creating custom color themes. Please use
 - `themes/carbon-light-theme.json`: Light theme with indigo accents
 - `themes/carbon-emerald-dark-theme.json`: Dark theme with emerald accents  
 - `themes/carbon-emerald-light-theme.json`: Light theme with emerald accents
+- `themes/carbon-crimson-dark-theme.json`: Dark theme with crimson accents
+- `themes/carbon-crimson-light-theme.json`: Light theme with crimson accents
+- `themes/carbon-rose-dark-theme.json`: Dark theme with rose accents
+- `themes/carbon-rose-light-theme.json`: Light theme with rose accents
+- `themes/carbon-amber-dark-theme.json`: Dark theme with amber accents
+- `themes/carbon-amber-light-theme.json`: Light theme with amber accents
 - `package.json`: Extension manifest with theme contribution
 - `.vscode/launch.json`: Debug configuration for testing
 
 ## Color Palette
-- **Primary Indigo**: #6366f1 (Professional, calm)
-- **Primary Emerald**: #00ff88 (Vibrant, energetic)
+- **Primary Indigo**: #6366f1 (Professional, calm, corporate)
+- **Primary Emerald**: #00ff88 (Vibrant, energetic, creative)
+- **Primary Crimson**: #dc2626 (Bold, powerful, focused)
+- **Primary Rose**: #ec4899 (Elegant, sophisticated, modern)
+- **Primary Amber**: #f59e0b (Warm, optimistic, inviting)
 - **Dark Background**: #0f0f0f
 - **Light Background**: #fdfdfd
 - **Dark Text**: #e6e6e6
