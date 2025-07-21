@@ -1,9 +1,70 @@
 # Change Log
 
-All notable changes to **Flux Code Theme** will be documented in this file.
+All notable changes to **Carbon Code Theme** will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1.0] - 2025-07-20
+
+### 🎨 Enhanced Background Tinting
+
+**Major visual improvements** with subtle but noticeable color tinting across all theme variants.
+
+### ✨ New Features
+
+- **🌈 Accent-Tinted Backgrounds**: All themes now feature subtle background tinting matching their accent colors
+- **📐 Material Design Inspired**: Flat design with transparent color masks for modern aesthetics
+- **👁️ Improved Visual Cohesion**: Each color variant now has stronger brand identity
+- **⚖️ Perfect Balance**: Noticeable but non-intrusive tinting that maintains readability
+
+### 🎯 Background Updates
+
+#### **Dark Themes**
+
+- **Carbon Dark**: `#0f0f0f` → `#0f0f13` (subtle indigo tint)
+- **Carbon Emerald Dark**: `#0f0f0f` → `#0e110e` (natural green tint)
+- **Carbon Rose Dark**: `#0f0f0f` → `#110e10` (elegant rose tint)
+- **Carbon Amber Dark**: `#0f0f0f` → `#100e08` (warm amber glow)
+- **Carbon Crimson Dark**: `#0f0f0f` → `#120e0e` (bold crimson backdrop)
+
+#### **Light Themes**
+
+- **Carbon Light**: `#fdfdfd` → `#fcfcff` (clean indigo wash)
+- **Carbon Emerald Light**: `#fdfdfd` → `#fafefc` (fresh mint background)
+- **Carbon Rose Light**: `#fdfdfd` → `#fef9fc` (soft rose blush)
+- **Carbon Amber Light**: `#fdfdfd` → `#fffbf0` (warm cream tone)
+- **Carbon Crimson Light**: `#fdfdfd` → `#fefcfc` (subtle coral backdrop)
+
+#### **Activity Bars & Sidebars**
+
+- **Enhanced Tinting**: More pronounced color accents in interface elements
+- **Improved Hierarchy**: Better visual distinction between different UI areas
+- **Consistent Branding**: Each variant maintains its unique color personality
+
+### 🛠️ Technical Improvements
+
+- **Color Psychology**: Warmer tones for better coding ambiance
+- **Reduced Eye Strain**: Subtle color transitions instead of pure grayscale
+- **Brand Consistency**: Each theme variant now has distinctive visual identity
+- **Professional Appeal**: Material Design principles for modern interfaces
+
+### 🎨 Design Philosophy Updates
+
+The new tinting approach follows these principles:
+
+1. **Subtle but Noticeable**: Changes are clearly visible but never distracting
+2. **Transparency Effect**: Like colored glass overlays on base themes
+3. **Accent Harmony**: Background colors complement their accent counterparts
+4. **Professional Standards**: Maintains enterprise-grade aesthetics
+5. **Developer Focused**: Optimized for long coding sessions
+
+### 📈 User Experience
+
+- **Visual Comfort**: Softer transitions between UI elements
+- **Theme Recognition**: Easier to identify which variant you're using
+- **Mood Enhancement**: Color psychology for improved coding experience
+- **Professional Appearance**: Suitable for any work environment
 
 ## [1.0.0] - 2025-01-20
 
@@ -30,12 +91,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🚀 Theme Variants
 
 #### **Flux Code Dark**
+
 - Deep, comfortable background (`#0f0f0f`)
 - High contrast text (`#e6e6e6`)
 - Professional teal accents (`#00d9cc`)
 - Optimized for extended coding sessions
 
-#### **Flux Code Light**  
+#### **Flux Code Light**
+
 - Clean white background (`#fdfdfd`)
 - Sharp dark text (`#0a0a0a`)
 - Consistent teal accents
@@ -45,7 +108,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Enhanced Syntax Highlighting**: 15+ programming languages
 - **Improved Contrast Ratios**: WCAG AA compliant
-- **Reduced Eye Strain**: Carefully balanced color temperatures  
+- **Reduced Eye Strain**: Carefully balanced color temperatures
 - **Professional Aesthetics**: Suitable for enterprise environments
 - **Marketplace Optimized**: Commercial-grade naming and branding
 
@@ -63,14 +126,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Flux Code** represents the flow state of productive coding:
 
 1. **Modern**: Contemporary design language
-2. **Minimal**: Zero visual clutter  
+2. **Minimal**: Zero visual clutter
 3. **Professional**: Enterprise-ready aesthetics
 4. **Elegant**: Sophisticated color harmony
 5. **Productive**: Optimized for focus and flow
 
 ### 🔧 Breaking Changes
 
-- **Theme Names**: 
+- **Theme Names**:
   - `SazarDev Brutal Minimal` → `Flux Code Dark`
   - `SazarDev Brutal Minimal Light` → `Flux Code Light`
 - **Extension ID**: `clean-code` → `flux-code-theme`
@@ -81,7 +144,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 If upgrading from previous version:
 
 1. **Uninstall** old "SazarDev Brutal Minimal Theme"
-2. **Install** new "Flux Code Theme"  
+2. **Install** new "Flux Code Theme"
 3. **Select** "Flux Code Dark" or "Flux Code Light"
 4. **Update** any custom settings referencing old theme names
 
@@ -114,4 +177,4 @@ If upgrading from previous version:
 
 **Thank you for choosing Flux Code Theme!** 🚀
 
-*Where modern design meets productive coding*
+_Where modern design meets productive coding_

@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     // === EDITOR CORE - Ultra Clean ===
-    "editor.background": "#0a0b0a",
+    "editor.background": "#0a0c0a",
     "editor.foreground": "#f5f5f5",
     "editorCursor.foreground": "#00ff88",
     "editor.selectionBackground": "#00ff8822",

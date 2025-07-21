@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     // === EDITOR CORE - Professional & Clean ===
-    "editor.background": "#0f0f11",
+    "editor.background": "#0f0f13",
     "editor.foreground": "#e6e6e6",
     "editorCursor.foreground": "#6366f1",
     "editor.selectionBackground": "#6366f133",
@@ -21,7 +21,7 @@
     "editorRuler.foreground": "#1c1c1c",
     "editorWhitespace.foreground": "#2a2a2a",
     // === WORKBENCH - Clean & Elegant ===
-    "activityBar.background": "#08080a",
+    "activityBar.background": "#08080c",
     "activityBar.foreground": "#d0d0d0",
     "activityBar.inactiveForeground": "#606060",
     "activityBarBadge.background": "#6366f1",
