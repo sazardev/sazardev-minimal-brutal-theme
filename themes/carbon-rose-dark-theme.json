@@ -107,7 +107,10 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#666666"
@@ -115,7 +118,10 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
       "settings": {
         "foreground": "#e6e6e6"
       }
@@ -133,28 +139,40 @@
     },
     {
       "name": "Classes",
-      "scope": ["entity.name.class", "entity.name.type.class"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class"
+      ],
       "settings": {
         "foreground": "#eab308"
       }
     },
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#a855f7"
       }
     },
     {
       "name": "Strings",
-      "scope": ["string", "punctuation.definition.string"],
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#22c55e"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric"],
+      "scope": [
+        "constant.numeric"
+      ],
       "settings": {
         "foreground": "#3b82f6"
       }
@@ -169,6 +187,258 @@
       ],
       "settings": {
         "foreground": "#06b6d4"
+      }
+    },
+    {
+      "name": "Dart Class and Types",
+      "scope": [
+        "support.class.dart",
+        "support.type.dart",
+        "entity.name.type.class.dart",
+        "entity.name.type.dart"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "Dart Built-in Types",
+      "scope": [
+        "storage.type.primitive.dart",
+        "storage.type.built-in.dart"
+      ],
+      "settings": {
+        "foreground": "#66ccff"
+      }
+    },
+    {
+      "name": "Dart Functions",
+      "scope": [
+        "entity.name.function.dart",
+        "support.function.dart"
+      ],
+      "settings": {
+        "foreground": "#6366f1"
+      }
+    },
+    {
+      "name": "Dart Variables and Properties",
+      "scope": [
+        "variable.other.dart",
+        "variable.parameter.dart",
+        "variable.declaration.dart",
+        "meta.definition.variable.dart"
+      ],
+      "settings": {
+        "foreground": "#e8e8e8"
+      }
+    },
+    {
+      "name": "Dart Property Access",
+      "scope": [
+        "variable.other.property.dart",
+        "meta.field.declaration.dart"
+      ],
+      "settings": {
+        "foreground": "#a8d0ff"
+      }
+    },
+    {
+      "name": "Dart Keywords",
+      "scope": [
+        "keyword.control.dart",
+        "keyword.declaration.dart",
+        "storage.type.annotation.dart"
+      ],
+      "settings": {
+        "foreground": "#66ccff"
+      }
+    },
+    {
+      "name": "Flutter Widgets",
+      "scope": [
+        "support.class.flutter",
+        "support.type.flutter",
+        "meta.function-call.dart entity.name.function.dart"
+      ],
+      "settings": {
+        "foreground": "#dd88ff"
+      }
+    },
+    {
+      "name": "Dart String Interpolation",
+      "scope": [
+        "string.interpolated.dart",
+        "punctuation.definition.interpolation.dart",
+        "meta.template.expression.dart"
+      ],
+      "settings": {
+        "foreground": "#6366f1"
+      }
+    },
+    {
+      "name": "Dart Annotations",
+      "scope": [
+        "storage.type.annotation.dart",
+        "meta.declaration.annotation.dart"
+      ],
+      "settings": {
+        "foreground": "#a87cb3"
+      }
+    },
+    {
+      "name": "Dart Constructor",
+      "scope": [
+        "entity.name.constructor",
+        "meta.constructor.dart"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "Rust Types",
+      "scope": [
+        "entity.name.type.rust",
+        "storage.type.rust",
+        "storage.class.std.rust"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "Rust Macros",
+      "scope": [
+        "meta.macro.rust",
+        "entity.name.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#a87cb3"
+      }
+    },
+    {
+      "name": "Swift Types",
+      "scope": [
+        "entity.name.type.swift",
+        "support.type.swift"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "PHP Special Variables",
+      "scope": [
+        "variable.language.php",
+        "variable.other.global.php"
+      ],
+      "settings": {
+        "foreground": "#dd88ff"
+      }
+    },
+    {
+      "name": "Ruby Symbols",
+      "scope": [
+        "constant.other.symbol.ruby"
+      ],
+      "settings": {
+        "foreground": "#c4b078"
+      }
+    },
+    {
+      "name": "C# Types",
+      "scope": [
+        "entity.name.type.class.cs",
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "C# Attributes",
+      "scope": [
+        "entity.name.tag.cs",
+        "meta.attribute.cs"
+      ],
+      "settings": {
+        "foreground": "#a87cb3"
+      }
+    },
+    {
+      "name": "TypeScript Decorators",
+      "scope": [
+        "meta.decorator.ts",
+        "meta.decorator.tsx"
+      ],
+      "settings": {
+        "foreground": "#a87cb3"
+      }
+    },
+    {
+      "name": "React/JSX Tags",
+      "scope": [
+        "entity.name.tag.js",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx",
+        "support.class.component.js",
+        "support.class.component.tsx"
+      ],
+      "settings": {
+        "foreground": "#dd88ff"
+      }
+    },
+    {
+      "name": "JSX/TSX Component Tags",
+      "scope": [
+        "entity.name.tag.js.jsx",
+        "entity.name.tag.tsx"
+      ],
+      "settings": {
+        "foreground": "#dd88ff"
+      }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.inline.any.html",
+        "entity.name.tag.other.html",
+        "entity.name.tag.block.any.html"
+      ],
+      "settings": {
+        "foreground": "#7aa3c4"
+      }
+    },
+    {
+      "name": "YAML Keys",
+      "scope": [
+        "entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "Java Types",
+      "scope": [
+        "entity.name.type.class.java",
+        "storage.type.java",
+        "storage.type.generic.java"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
+      }
+    },
+    {
+      "name": "Kotlin Types",
+      "scope": [
+        "entity.name.type.class.kotlin",
+        "storage.type.kotlin"
+      ],
+      "settings": {
+        "foreground": "#7cb3b3"
       }
     }
   ]

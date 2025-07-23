@@ -11,6 +11,7 @@
 **Carbon Code** is designed for developers who value **clarity, focus, and elegance**. Built on the principle that your IDE should enhance—not distract from—your coding experience.
 
 ### 🎯 Core Values
+
 - **Minimal**: Clean interface that puts your code first
 - **Professional**: Suitable for any work environment
 - **Focused**: Reduced visual noise for better concentration
@@ -28,6 +29,7 @@
 ## 🚀 Installation
 
 ### From VS Code Marketplace
+
 1. Open VS Code
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"Carbon Code Theme"**
@@ -40,6 +42,7 @@
    - **Carbon Code Amber Dark** / **Carbon Code Amber Light** (Orange)
 
 ### From Command Line
+
 ```bash
 code --install-extension sazardev.carbon-code-theme
 ```
@@ -47,30 +50,35 @@ code --install-extension sazardev.carbon-code-theme
 ## 🎨 Theme Variants
 
 ### 🔵 Carbon Code Indigo Collection
+
 **Professional and calm - Perfect for enterprise environments**
 
 - **Carbon Code Dark** - Professional indigo accents (`#6366f1`)
 - **Carbon Code Light** - Clean indigo highlights (`#6366f1`)
 
-### 🟢 Carbon Code Emerald Collection  
+### 🟢 Carbon Code Emerald Collection
+
 **Vibrant and energetic - Ideal for creative coding**
 
 - **Carbon Code Emerald Dark** - Vibrant emerald accents (`#00ff88`)
 - **Carbon Code Emerald Light** - Bold emerald highlights (`#00ff88`)
 
 ### 🔴 Carbon Code Crimson Collection
+
 **Bold and powerful - For focused development**
 
 - **Carbon Code Crimson Dark** - Deep crimson accents (`#dc2626`)
 - **Carbon Code Crimson Light** - Rich crimson highlights (`#dc2626`)
 
 ### 🌸 Carbon Code Rose Collection
+
 **Elegant and modern - Sophisticated coding experience**
 
 - **Carbon Code Rose Dark** - Elegant rose accents (`#ec4899`)
 - **Carbon Code Rose Light** - Refined rose highlights (`#ec4899`)
 
 ### 🧡 Carbon Code Amber Collection
+
 **Warm and inviting - Optimistic development environment**
 
 - **Carbon Code Amber Dark** - Warm amber accents (`#f59e0b`)
@@ -114,16 +122,20 @@ Want to tweak the theme? Add these to your `settings.json`:
 ## 📸 Screenshots
 
 ### Dark Theme
+
 ![Carbon Code Dark](./assets/carbon-dark-preview.png)
 
-### Light Theme  
+### Light Theme
+
 ![Carbon Code Light](./assets/carbon-light-preview.png)
 
 ## 🧪 Tested With
 
-- **Languages**: JavaScript, TypeScript, Python, Go, Rust, Java, C#, PHP, HTML, CSS, JSON, Markdown
-- **Frameworks**: React, Vue, Angular, Node.js, Express, Django, Flask
+- **Languages**: JavaScript, TypeScript, Python, Go, Rust, Java, C#, PHP, HTML, CSS, JSON, Markdown, Dart, Flutter, Swift, Kotlin, Ruby, YAML
+- **Frameworks**: React, Vue, Angular, Node.js, Express, Django, Flask, Flutter
 - **Tools**: Git, Docker, Terminal, Debugging, Extensions
+
+See [LANGUAGE-SUPPORT.md](./LANGUAGE-SUPPORT.md) for detailed information about enhanced syntax highlighting for all supported languages.
 
 ## ⚙️ Recommended Settings
 
@@ -170,7 +182,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Enjoy coding with Carbon Code Theme!** ⚡
 
-*Like this theme? Consider leaving a ⭐ rating on the marketplace!*
+_Like this theme? Consider leaving a ⭐ rating on the marketplace!_
 
 - **🎨 Dual Themes**: Dark and Light variants optimized for all lighting conditions
 - **🔍 Enhanced Readability**: Carefully selected colors that reduce eye strain
@@ -183,7 +195,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 **Flux Code** combines modern aesthetics with functional design:
 
 - **Minimal**: Clean interface without visual clutter
-- **Professional**: Suitable for any development environment  
+- **Professional**: Suitable for any development environment
 - **Elegant**: Sophisticated color palette with perfect contrast
 - **Productive**: Optimized for long coding sessions
 
@@ -206,6 +218,7 @@ code --install-extension sazardev.flux-code-theme
 ## 🎨 Color Palette
 
 ### Dark Theme
+
 | Element            | Color     | Purpose                        |
 | ------------------ | --------- | ------------------------------ |
 | **Primary Accent** | `#00d9cc` | Cursor, selections, highlights |
@@ -217,6 +230,7 @@ code --install-extension sazardev.flux-code-theme
 | **Error**          | `#ff5555` | Errors, deletions              |
 
 ### Light Theme
+
 | Element            | Color     | Purpose                        |
 | ------------------ | --------- | ------------------------------ |
 | **Primary Accent** | `#00d9cc` | Cursor, selections, highlights |
@@ -227,12 +241,14 @@ code --install-extension sazardev.flux-code-theme
 ## 📱 Screenshots
 
 ### Dark Theme
+
 > Clean, modern interface perfect for low-light coding sessions
 
-### Light Theme  
+### Light Theme
+
 > Bright, crisp design ideal for well-lit environments
 
-*Screenshots will be added in the next version*
+_Screenshots will be added in the next version_
 
 ## 🛠️ Supported Languages
 
@@ -265,6 +281,7 @@ For the best experience with Flux Code Theme:
 ## 🔄 Version History
 
 ### v1.0.0 - Initial Release
+
 - ✅ Complete Dark and Light theme variants
 - ✅ Comprehensive syntax highlighting
 - ✅ Modern, professional design
@@ -293,4 +310,4 @@ MIT License - feel free to use in personal and commercial projects.
 
 **Made with ❤️ by developers, for developers**
 
-*Flux Code Theme - Where modern design meets productive coding*
+_Flux Code Theme - Where modern design meets productive coding_
