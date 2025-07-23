@@ -2,7 +2,6 @@
   "name": "Carbon Code Crimson Dark",
   "type": "dark",
   "colors": {
-    // === EDITOR CORE - Professional & Clean ===
     "editor.background": "#120e0e",
     "editor.foreground": "#e6e6e6",
     "editorCursor.foreground": "#dc2626",
@@ -20,7 +19,6 @@
     "editorIndentGuide.activeBackground1": "#dc2626",
     "editorRuler.foreground": "#1c1c1c",
     "editorWhitespace.foreground": "#2a2a2a",
-    // === WORKBENCH - Clean & Elegant ===
     "activityBar.background": "#090606",
     "activityBar.foreground": "#d0d0d0",
     "activityBar.inactiveForeground": "#606060",
@@ -49,7 +47,6 @@
     "statusBar.debuggingBackground": "#dc2626",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.noFolderBackground": "#080808",
-    // === TABS - Brutal Minimal Design ===
     "tab.activeBackground": "#00000000",
     "tab.activeForeground": "#d0d0d0",
     "tab.activeBorder": "#00000000",
@@ -69,13 +66,11 @@
     "editorGroupHeader.tabsBackground": "#080808",
     "editorGroupHeader.tabsBorder": "#00000000",
     "editorGroupHeader.border": "#00000000",
-    // === PANEL ===
     "panel.background": "#050505",
     "panel.border": "#1a1a1a",
     "panelTitle.activeForeground": "#ffffff",
     "panelTitle.inactiveForeground": "#666666",
     "panelTitle.activeBorder": "#dc2626",
-    // === TERMINAL ===
     "terminal.background": "#000000",
     "terminal.foreground": "#f5f5f5",
     "terminal.ansiBlack": "#000000",
@@ -86,7 +81,6 @@
     "terminal.ansiMagenta": "#c026d3",
     "terminal.ansiCyan": "#0891b2",
     "terminal.ansiWhite": "#ffffff",
-    // === BUTTONS & INPUTS ===
     "button.background": "#dc2626",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#b91c1c",
@@ -94,7 +88,6 @@
     "input.foreground": "#ffffff",
     "input.border": "#333333",
     "inputOption.activeBorder": "#dc2626",
-    // === LISTS ===
     "list.activeSelectionBackground": "#dc262611",
     "list.activeSelectionForeground": "#ffffff",
     "list.dropBackground": "#dc262622",
@@ -107,65 +100,52 @@
     "list.focusHighlightForeground": "#dc2626",
     "list.errorForeground": "#ff6b6b",
     "list.warningForeground": "#f59e0b",
-    // === SCROLLBAR ===
     "scrollbar.shadow": "#000000",
     "scrollbarSlider.background": "#33333344",
     "scrollbarSlider.hoverBackground": "#44444444",
     "scrollbarSlider.activeBackground": "#dc262644",
-    // === MENU ===
     "menu.background": "#0a0a0a",
     "menu.foreground": "#ffffff",
     "menu.selectionBackground": "#1a1a1a",
     "menu.selectionForeground": "#ffffff",
     "menu.border": "#333333",
-    // === NOTIFICATIONS ===
     "notificationCenter.border": "#333333",
     "notificationCenterHeader.background": "#0a0a0a",
     "notificationToast.border": "#333333",
     "notifications.background": "#0a0a0a",
     "notifications.foreground": "#ffffff",
     "notifications.border": "#333333",
-    // === BREADCRUMBS ===
     "breadcrumb.foreground": "#999999",
     "breadcrumb.background": "#0a0a0a",
     "breadcrumb.focusForeground": "#ffffff",
     "breadcrumb.activeSelectionForeground": "#dc2626",
-    // === PEEK VIEW ===
     "peekView.border": "#dc2626",
     "peekViewEditor.background": "#0a0a0a",
     "peekViewResult.background": "#050505",
-    // === DIFF EDITOR ===
     "diffEditor.insertedTextBackground": "#16a34a22",
     "diffEditor.removedTextBackground": "#dc262622",
     "diffEditor.insertedLineBackground": "#16a34a11",
     "diffEditor.removedLineBackground": "#dc262611",
-    // === GIT DECORATIONS ===
     "gitDecoration.addedResourceForeground": "#16a34a",
     "gitDecoration.modifiedResourceForeground": "#f59e0b",
     "gitDecoration.deletedResourceForeground": "#dc2626",
     "gitDecoration.untrackedResourceForeground": "#2563eb",
     "gitDecoration.ignoredResourceForeground": "#666666",
     "gitDecoration.conflictingResourceForeground": "#c026d3",
-    // === MINIMAP ===
     "minimap.background": "#000000",
     "minimap.selectionHighlight": "#dc262644",
     "minimap.errorHighlight": "#dc2626",
     "minimap.warningHighlight": "#f59e0b",
     "minimap.findMatchHighlight": "#2563eb44",
-    // === WIDGET ===
     "widget.shadow": "#000000",
     "editorWidget.background": "#0a0a0a",
     "editorWidget.border": "#333333",
     "editorHoverWidget.background": "#0a0a0a",
     "editorHoverWidget.border": "#333333",
-    // === PROGRESS BAR ===
     "progressBar.background": "#dc2626",
-    // === FOCUS BORDER ===
     "focusBorder": "#00000000",
-    // === CONTRAST BORDERS ===
     "contrastBorder": "#333333",
     "contrastActiveBorder": "#dc2626",
-    // === EXPLORER SPECIFIC ===
     "tree.indentGuidesStroke": "#dc262633",
     "tree.inactiveIndentGuidesStroke": "#dc262633"
   },
