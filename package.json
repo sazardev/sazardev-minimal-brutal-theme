@@ -2,7 +2,7 @@
   "name": "carbon-code-theme",
   "displayName": "Carbon Code Theme",
   "description": "Clean, minimal VS Code theme for focused coding. Professional variants with indigo, emerald, crimson, rose, and amber color schemes.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "sazardev",
   "icon": "icon.png",
   "engines": {
